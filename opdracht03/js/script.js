@@ -26,3 +26,7 @@ function zetGroenLichtAan(){
     document.getElementById("light-bottom").style.backgroundColor = "green";
 
 }
+
+
+
+

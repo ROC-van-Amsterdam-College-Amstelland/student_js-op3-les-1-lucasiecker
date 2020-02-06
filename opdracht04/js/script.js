@@ -34,3 +34,6 @@ function zetGroenLichtAan(){
         document.getElementById("light-bottom").style.backgroundColor = "gray";
     }
 }
+
+
+

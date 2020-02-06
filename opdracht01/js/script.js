@@ -8,3 +8,5 @@ window.onload = function(){
     document.getElementById("light-bottom").innerHTML= go;
 }
 
+
+
