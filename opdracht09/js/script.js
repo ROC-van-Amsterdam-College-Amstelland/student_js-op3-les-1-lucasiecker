@@ -53,6 +53,7 @@ function zetStoplichtAOp(sKleur){
     }
     else{
         //JOUW CODE HIER
+        
     }
 }
 

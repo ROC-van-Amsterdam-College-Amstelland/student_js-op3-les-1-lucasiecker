@@ -39,6 +39,8 @@ function toggleRoodLicht(){
     if(roodLichtStaatAan == false){
         document.getElementById("left-light-top").style.backgroundColor = lichtRood;
         //JOUW CODE HIER
+        document.getElementById("left-light-middle").style.backgroundColor = lichtUit;
+        document.getElementById("left-light-bottom").style.backgroundColor = lichtUit;
         roodLichtStaatAan = true;
         verkeerMagRijdenStoplichtB(true);
     }
@@ -51,8 +53,10 @@ function toggleRoodLicht(){
 
 function toggleOranjeLicht(){
     if(oranjeLichtStaatAan == false){
-        document.getElementById("left-light-middle").style.backgroundColor = "orange";
+        document.getElementById("left-light-top").style.backgroundColor = lichtUit;
         //JOUW CODE HIER
+        document.getElementById("left-light-middle").style.backgroundColor = lichtOranje;
+        document.getElementById("left-light-bottom").style.backgroundColor = lichtUit;
         oranjeLichtStaatAan = true;
     }
     else{
@@ -63,8 +67,10 @@ function toggleOranjeLicht(){
 
 function toggleGroenLicht(){
     if(groenLichtStaatAan == false){
-        document.getElementById("left-light-bottom").style.backgroundColor = "green";
+        document.getElementById("left-light-top").style.backgroundColor = lichtUit;
         //JOUW CODE HIER
+        document.getElementById("left-light-middle").style.backgroundColor = lichtUit;
+        document.getElementById("left-light-bottom").style.backgroundColor = lichtGroen;
         groenLichtStaatAan = true;
         verkeerMagRijdenStoplichtB(false);
     }

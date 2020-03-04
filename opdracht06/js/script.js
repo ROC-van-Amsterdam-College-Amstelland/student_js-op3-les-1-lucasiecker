@@ -16,6 +16,43 @@ window.onload = function(){
     document.getElementById("right-light-bottom").innerHTML = go;
 
     //JOUW CODE HIER
+
+
+
+
+    function toggleRoodLicht(){
+        if(roodLichtStaatAan == false){
+            document.getElementById("left-light-top").style.backgroundColor = "red";
+            roodLichtStaatAan = true;
+        }
+        else{
+            document.getElementById("left-light-top").style.backgroundColor = "gray";
+            roodLichtStaatAan = false;
+        }
+    }
+    
+    function toggleOranjeLicht(){
+        if(oranjeLichtStaatAan == false){
+            document.getElementById("left-light-middle").style.backgroundColor = "orange";
+            oranjeLichtStaatAan = true;
+        }
+        else{
+            document.getElementById("left-light-middle").style.backgroundColor = "gray";
+            oranjeLichtStaatAan = false;
+        }
+    }
+    
+    function toggleGroenLicht(){
+        if(groenLichtStaatAan == false){
+            document.getElementById("left-light-bottom").style.backgroundColor = "green";
+            groenLichtStaatAan = true;
+        }
+        else{
+            document.getElementById("left-light-bottom").style.backgroundColor = "gray";
+            groenLichtStaatAan = false;
+        }
+    }
+    
 }
 
 function toggleRoodLicht(){
